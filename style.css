@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(#c0e2e2 .2vw, #eff9f9 .2vw);
+  background-size: 5vw 5vw;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  clear: left;
+  height: auto;
+  z-index: 1;
+  text-align: center;
+}
+
+h2 {
+  font-family: Cursive;
+  font-weight: 200px;
+  font-style: italic;
+  font-size: 40px;
+  color: hsla(200, 100%, 50%, 0.8);
+}
+
+input[type=text] {
+  width: 500px;
+  padding: 7px 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+input[value=ADD] {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+input[type=submit] {
+  border: 1px solid hsla(200, 100%, 50%, 0.8);
+  color: hsla(200, 100%, 50%, 0.8);
+  background: white;
+  padding: 12px 24px;
+  border-radius: 3px;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+  background: #c2eef9;
+  color: white;
+}
+
+.list {
+  margin: auto;
+  width: 600px;
+  right: 0;
+  left: 0;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  border: 1px solid hsla(200, 100%, 50%, 0.8);
+  color: hsla(200, 100%, 50%, 0.8);
+  background: white;
+  border-radius: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 1px solid #f44c0e;
+  color: white;
+  background: #fcb7ab;
+}
+
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: white;
+    border: 1px solid hsla(200, 100%, 50%, 0.8);
+    border-radius: 3px;
+    font-family: fantasy;
+    font-size: 15px;
+    opacity: 1;
+    transition: opacity 500ms linear;
+}
+
+ul li:hover {
+    background: #c0e2e2;
+}
